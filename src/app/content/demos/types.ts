@@ -25,6 +25,7 @@ export type DemoFAQ = {
 export type DemoContent = {
   slug: DemoSlug;
   businessName: string;
+  locationCity?: string;
   city: string;
   tagline: string;
   heroHeadline: string;
